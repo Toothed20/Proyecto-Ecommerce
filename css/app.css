@@ -1,7 +1,20 @@
-h1 {
-    color: #000;
+html {
+    box-sizing: border-box;
 }
 
-h1 span {
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*! Header y Navegación */
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span {
     color: #037bc0;
 }
