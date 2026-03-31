@@ -32,16 +32,17 @@ img {
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 
 /*! Header y Navegación */
 .nombre-sitio {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     text-align: center;
+    font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -49,11 +50,11 @@ img {
 }
 
 .contenedor-navegacion {
-    border-top: 1px solid #e1e1e1;
+    border-top: 0.1rem solid #e1e1e1;
 }
 
 .nav-principal {
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +63,7 @@ img {
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 55rem;
 }
 
 /*! Categorias */
@@ -73,9 +74,9 @@ img {
 .categoria a {
     text-align: center;
     display: block;
-    padding: 20px;
-    font-size: 20px;
-    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    font-size: 2rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .categoria a:hover {
@@ -86,5 +87,5 @@ img {
 .listado-categorias {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
 }
