@@ -139,7 +139,8 @@ img {
 
 .texto-producto {
     text-align: center;
-    color: #fff
+    color: #fff;
+    padding: 2rem;
 }
 
 .texto-producto h3 {
@@ -155,4 +156,16 @@ img {
     font-weight: 900;
 }
 
-.texto-producto a {}
+.texto-producto a {
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color 0.3s ease-out;
+}
+
+.texto-producto a:hover {
+    background-color: #769c02;
+}
