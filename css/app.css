@@ -80,6 +80,10 @@ img {
 }
 
 /*! Categorias */
+.categorias {
+    padding-top: 5rem;
+}
+
 .categorias h2 {
     text-align: center;
 }
